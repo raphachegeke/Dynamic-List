@@ -14,7 +14,7 @@ body {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
-  background-color: #14B8A6;
+  background: #14B8A6;
 }
 
 /* Main Container */
@@ -22,7 +22,7 @@ body {
   width: 100%;
   max-width: 480px;
   margin: 0 auto;
-  background: #14b8a6;
+  background: white;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 
               0 1px 3px rgba(0, 0, 0, 0.1);

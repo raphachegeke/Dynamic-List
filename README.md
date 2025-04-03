@@ -31,31 +31,14 @@ npm start
 
 Then open http://localhost:3000 to view it in the browser.
 
-File Structure
 
-📂 dynamic-list-manager
-├── 📂 src
-│   ├── 📂 components
-│   │   ├── 📂 ToastNotification  
-│   │   │   ├── 📄 ToastNotification.jsx
-│   │   │   └── 📄 ToastNotification.css
-│   │   ├── 📂 DynamicListManager  
-│   │   │   ├── 📄 DynamicListManager.jsx
-│   │   │   └── 📄 DynamicListManager.css
-│   ├── 📄 App.jsx
-│   ├── 📄 App.css
-│   ├── 📄 index.jsx
-├── 📄 package.json
-└── 📄 README.md
+## Technologies Used
 
-Technologies Used
-
-React.js
-
-CSS
+  React.js
+  CSS
 
 
-Future Improvements
+## Future Improvements
 
 Add delete functionality for items.
 

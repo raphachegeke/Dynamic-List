@@ -33,9 +33,9 @@ A simple React application that allows users to dynamically add items to a list.
 
 
 ## Technologies Used
-    ```sh
-  React.js
-  CSS
+    ```
+    React.js
+    CSS
 
 
 ## Future Improvements

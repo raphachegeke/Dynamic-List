@@ -12,6 +12,7 @@ body {
 
 .app-container {
   width: 100%;
+  height: fit-content;
   padding: 20px;
   box-sizing: border-box;
   background: #14B8A6;

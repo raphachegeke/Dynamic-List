@@ -1,12 +1,66 @@
-# React + Vite
+# Dynamic List Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo: [https://dynamic-list-alpha.vercel.app/](https://dynamic-list-alpha.vercel.app/)
 
-Currently, two official plugins are available:
+A simple React application that allows users to dynamically add items to a list.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Add items to the list by typing and pressing Enter or clicking the "Add Item" button.
+- Styled UI with a clean design.
+- Responsive and accessible.
+- Toast notifications for feedback.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/dynamic-list-manager.git
+   cd dynamic-list-manager
+
+2. Install dependencies:
+
+npm install
+
+
+
+Usage
+
+Run the application in development mode:
+
+npm start
+
+Then open http://localhost:3000 to view it in the browser.
+
+File Structure
+
+📂 dynamic-list-manager
+├── 📂 src
+│   ├── 📂 components
+│   │   ├── 📂 ToastNotification  
+│   │   │   ├── 📄 ToastNotification.jsx
+│   │   │   └── 📄 ToastNotification.css
+│   │   ├── 📂 DynamicListManager  
+│   │   │   ├── 📄 DynamicListManager.jsx
+│   │   │   └── 📄 DynamicListManager.css
+│   ├── 📄 App.jsx
+│   ├── 📄 App.css
+│   ├── 📄 index.jsx
+├── 📄 package.json
+└── 📄 README.md
+
+Technologies Used
+
+React.js
+
+CSS
+
+
+Future Improvements
+
+Add delete functionality for items.
+
+Implement persistent storage using localStorage.
+
+---
+
+Developed with ❤️ by Rapha Chege Kamunu

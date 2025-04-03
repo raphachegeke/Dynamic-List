@@ -18,22 +18,22 @@ A simple React application that allows users to dynamically add items to a list.
    cd dynamic-list-manager
 
 2. Install dependencies:
+    ```sh
+     npm install
 
-npm install
 
 
+## Usage
 
-Usage
+1. Run the application in development mode:
+    ```sh
+    npm start
 
-Run the application in development mode:
-
-npm start
-
-Then open http://localhost:3000 to view it in the browser.
+2. Then open http://localhost:3000 to view it in the browser.
 
 
 ## Technologies Used
-
+    ```sh
   React.js
   CSS
 
